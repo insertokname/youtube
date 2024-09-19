@@ -1,0 +1,8 @@
+.venv/
+build/
+dist/
+videos/
+__pycache__
+test.py
+*.spec
+message.txt
