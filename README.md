@@ -2,7 +2,6 @@ Small script for finding and downloading videos from text file. This app also ca
 
 [You can download an exe version of the script from here.](https://github.com/insertokname/youtube-downloader/releases)
 
-
 # General use:
 
 - Select the videos folder (the folder in which you want to download the videos)
@@ -15,7 +14,7 @@ Small script for finding and downloading videos from text file. This app also ca
 
 ## Requirements:
 
-- [python](https://www.python.org/downloads/)
+- [python 12+](https://www.python.org/downloads/)
 
 ## Running:
 
