@@ -136,6 +136,7 @@ class MainWidget(QtWidgets.QWidget):
         self.thread.update_text.connect(self.updateText)
         self.thread.finished_download.connect(self.finishedUpdate)
         self.thread.start() 
+        self.downloadVideoButton.setVisible(False)
 
     def updateText(self, text):
         self.textEdit.append(text)
@@ -146,7 +147,6 @@ class MainWidget(QtWidgets.QWidget):
             self.textEdit.append("Some links couldn't be downloaded!\nTry again downloading or ignore them in the future?")
             self.decisionButtonIgnore.setVisible(True)
             self.decisionButtonRetry.setVisible(True)
-        self.downloadVideoButton.setVisible(False)
 
     def ignoreVideos(self):
         self.videoCache.update_cache(self.new_links)
