@@ -1,5 +1,8 @@
 Small script for finding and downloading videos from text file. This app also cache the already downloaded video names in a .pkl file so you don't download the videos again.
 
+[You can download an exe version of the script from here.](https://github.com/insertokname/youtube-downloader/releases)
+
+
 # General use:
 
 - Select the videos folder (the folder in which you want to download the videos)
