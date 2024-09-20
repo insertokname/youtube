@@ -117,7 +117,7 @@ class MainWidget(QtWidgets.QWidget):
 
     def openMessages(self, filename: str):
         try:    
-            with open(filename,'r') as file:
+            with open(filename,'r',encoding="utf8") as file:
                 data = file.read()
                 links = parsing.find_links_str(data)
                 self.new_links = self.videoCache.find_new_strings(links)
